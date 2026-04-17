@@ -1,0 +1,313 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phillips Electric</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0A1A73'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 text-gray-800"> <!-- Header --> <header style="position: fixed; top: 0; width: 100%; z-index: 100"  class="bg-white text-Black">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img src="logo.png" alt="Phillips Electric Logo" class="h-12" />
+      </div>
+      <div class="flex items-center space-x-6">
+        <nav class="space-x-6 hidden md:block">
+          <a href="#services" class="hover:underline">Services</a>
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+        <a href="tel:19702593395" class="bg-white text-primary px-4 py-2 rounded-xl font-semibold shadow hover:opacity-90">
+          Call: 970-259-3395
+        </a>
+      </div>
+    </div>
+  </header> <!-- Hero Section --> <section style="padding-top: 120px" class="text-Black py-20 text-center">
+    <div class="flex justify-center mb-6">
+      <img src="logo.png" alt="Phillips Electric Logo" class="h-48" />
+    </div>
+    <h2 class="text-4xl font-bold mb-4">Reliable Electrical Services</h2>
+    <p class="text-lg mb-6">Residential • Commercial • Repairs • Installations</p>
+    <a href="#contact" class="bg-white text-primary px-6 py-3 rounded-2xl font-semibold shadow hover:opacity-90">
+      Submit Work Request
+    </a>
+  </section>
+<section class="py-16 bg-primary">
+  <div class="max-w-5xl mx-auto px-4">
+
+    <h2 class="text-3xl font-bold text-center mb-10 text-white">
+      What Our Customers Say
+    </h2>
+
+    <!-- Swiper -->
+    <div class="swiper">
+      <div id="reviews" class="swiper-wrapper"></div>
+
+      <div class="swiper-pagination mt-6"></div>
+    </div>
+
+  </div>
+</section>
+ <!-- Services --> 
+<section> <section id="services" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-10">Our Services</h3>
+    <div class="grid md:grid-cols-4 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="text-xl font-semibold mb-2">Residential</h4>
+        <p>Wiring, panel upgrades, lighting installation, and home electrical repairs.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="text-xl font-semibold mb-2">Commercial</h4>
+        <p>Full-service electrical solutions for offices, shops, and all commercial buildings.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="text-xl font-semibold mb-2">Industrial</h4>
+        <p>Installing, maintaining, and repairing high-voltage, machinery, and controls in factories, plants, and manufacturing facilities.</p>
+      </div>
+	<div class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="text-xl font-semibold mb-2">Maintenance</h4>
+        <p>Troubleshooting, inspections, and ongoing electrical system maintenance.</p>
+      </div>
+
+    </div>
+  </section> </section> <!-- About --> <section id="about" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">About Phillips Electric</h3>
+      <p>
+        For over 40 years, Phillips Electric has proudly served the Durango, Colorado community with reliable, high-quality electrical services. Built on a foundation of integrity, craftsmanship, and customer trust, the company has earned a reputation for delivering dependable solutions for residential, commercial, and industrial projects alike.
+</p><p>
+With decades of hands-on experience, Phillips Electric combines traditional work ethic with modern expertise to meet today’s electrical needs while staying committed to safety, efficiency, and long-lasting results. Whether it’s a small repair or a large-scale installation, customers can count on Phillips Electric for professional service done right the first time.
+      </p>
+    </div>
+  </section>
+
+
+ <!-- Contact --> <section id="contact" class="max-w-4xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-8">Contact Us</h3>
+    <form class="bg-white p-8 rounded-2xl shadow space-y-4">
+      <input type="text" placeholder="Name" class="w-full border p-3 rounded" required />
+      <input type="email" placeholder="Email" class="w-full border p-3 rounded" required />
+      <textarea placeholder="How can we help?" class="w-full border p-3 rounded" rows="4"></textarea>
+      <button type="submit" class="bg-primary text-white px-6 py-3 rounded-2xl font-semibold hover:opacity-90">
+        Send Message
+      </button>
+    </form>
+   <p>By submitting this form, you agree that we may use the information provided to respond to your inquiry. Please do not include sensitive personal information. Submission of this form does not create a contractual relationship. For more details on how we handle your data, please review our <b><a href="Termsandconditions.html" style="color: #0A1A73">Privacy Policy</a></b>.</p>
+  </section> <!-- Footer --> <footer class="bg-primary text-zinc-200 mt-20">
+
+  <div class="max-w-6xl mx-auto px-6 py-14">
+
+    <!-- AFFILIATIONS -->
+    <div class="mb-12">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6 items-center">
+        
+        <div class="h-32 flex items-center justify-center">
+  <img src="LPEA Sunflower Black_4.png" alt="Company Name" class="max-h-full object-contain opacity-80 hover:opacity-100 transition">
+</div>
+                <div class="h-32 flex items-center justify-center">
+  <img src="ids-CO-Flag.png" alt="Company Name" class="max-h-full object-contain opacity-80 hover:opacity-100 transition">
+</div>
+                <div class="h-32 flex items-center justify-center">
+  <img src="LocalFirstlogo-1.png" alt="Company Name" class="max-h-full object-contain opacity-80 hover:opacity-100 transition">
+</div>
+
+      </div>
+    </div>
+
+    <!-- BOTTOM GRID -->
+    <div class="grid grid-cols-2 gap-10 pt-10 items-center">
+
+      <!-- HOURS -->
+      <div class="text-center">
+        <h4 class="text-white text-lg font-semibold mb-4">Hours & Contact</h4>
+
+        <div class="space-y-3 text-sm text-zinc-400">
+          <p>📍 <span class="text-zinc-200">570 Turner Dr. #F Durango, Colorado</span></p>
+          <p><a href="tel:9702593395">📞 <span class="text-zinc-200">(970) 259-3395</a></span></p>
+       
+
+          <div class="pt-3">
+            <p class="text-zinc-300 font-medium mb-2">Hours of Operation</p>
+            <ul class="space-y-1">
+              <li>Mon – Thur: 8:00 AM – 4:30 PM</li>
+ 	      <li>Fri: 8:00 AM – 3:30 PM</li>
+              <li>Saturday: Emergency Only</li>
+              <li>Sunday: Emergency Only</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIAL -->
+      <div class="text-center">
+        <h4 class="text-white text-lg font-semibold mb-4">Connect With Us</h4>
+
+        <p class="text-sm text-zinc-400 mb-6">
+          Follow us for updates and project highlights.
+        </p>
+
+        <div class="flex flex-col space-y-3 items-center">
+
+          <a href="#" class="flex items-center gap-3 hover:text-blue-400 transition">
+            <span class="w-8 h-8 bg-zinc-900 border border-zinc-800 rounded-md flex items-center justify-center">f</span>
+            Facebook
+          </a>
+
+          <a href="#" class="flex items-center gap-3 hover:text-pink-400 transition">
+            <span class="w-8 h-8 bg-zinc-900 border border-zinc-800 rounded-md flex items-center justify-center">ig</span>
+            Instagram
+          </a>
+
+          <a href="#" class="flex items-center gap-3 hover:text-sky-400 transition">
+            <span class="w-8 h-8 bg-zinc-900 border border-zinc-800 rounded-md flex items-center justify-center">in</span>
+            LinkedIn
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div class="text-center mt-12 pt-6 border-t border-zinc-800 text-xs text-zinc-500">
+      <p><a href="Termsandconditions.html">Privacy Policy | Terms & Conditions </a> © 2026 Phillips Electric. All rights reserved.</p>
+    </div>
+
+  </div>
+</footer>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+const reviews = [
+  {
+    name: "Brad Klipping",
+    text: "Doug and the team at Phillips Electric did an incredible job rewiring our entire home. From the LPEA pole to the circuit box to the last outlet, they replaced everything flawlessly.",
+  },
+  {
+    name: "Brandon Gottesman",
+    text: "John did outstanding work diagnosing and repairing a serious electrical issue with our water heater. Extremely thorough, patient, and professional throughout the process.",
+  },
+  {
+    name: "Larrydgo (DGOlnr)",
+    text: "Phillips Electric came through again and did a fantastic job. Always professional, friendly, and doing a complete and perfect job.",
+  },
+  {
+    name: "Anne Zalbowitz",
+    text: "Thank you for helping assess electrical panel boxes for a new AC unit. I really appreciate your service and expertise!",
+  },
+  {
+    name: "Brett Stallings",
+    text: "Worked with Doug, Jason, John and Matt over a multi-month remodel. They arrived early every day and exceeded expectations.",
+  },
+  {
+    name: "J Chmielewski",
+    text: "Installed a 240V EV service in the garage. Very professional, efficient, quick turnaround, and answered all questions.",
+  },
+  {
+    name: "Rachael Rangel",
+    text: "Each time I called, I spoke to a real person. They came quickly even though we are far out of Durango. Excellent service.",
+  },
+  {
+    name: "Chris Latshaw",
+    text: "Had lighting fixtures repaired and upgraded. Everyone from office to technician was professional and efficient.",
+  },
+  {
+    name: "Nathan Swartz",
+    text: "Diagnosed septic alarm issue within a day. Reasonable price and guaranteed work.",
+  },
+  {
+    name: "Judy Cook",
+    text: "Very responsive even on a Sunday. Helped restore power quickly to our RV park.",
+  },
+  {
+    name: "Jeff Ward",
+    text: "Used them for years. Always professional, courteous, and reliable.",
+  },
+  {
+    name: "Scott Price",
+    text: "Aaron and Dillon were fantastic. Top tier professionalism and knowledge.",
+  },
+  {
+    name: "Melissa Fogg",
+    text: "Top notch company with over 28 years serving the community. Honest and fair.",
+  },
+  {
+    name: "Ana-Lidia Anderson",
+    text: "Quickest and easiest electrical company to work with. Easy to book and very responsive.",
+  },
+  {
+    name: "Randy Hentz",
+    text: "Fixed a messy electrical system another contractor created. Extremely knowledgeable and professional.",
+  },
+  {
+    name: "Kerry Wanstrath",
+    text: "Reliable, honest, trustworthy, and always top notch work.",
+  },
+  {
+    name: "Wes Smith",
+    text: "Great service and reasonable prices. Highly recommend.",
+  },
+  {
+    name: "Eric Burris",
+    text: "Used them several times. Service is always top notch.",
+  },
+  {
+    name: "Chris Garvin",
+    text: "Great people and great work. Fast and done right.",
+  }
+];
+
+const container = document.getElementById("reviews");
+
+reviews.forEach(r => {
+  container.innerHTML += `
+    <div class="swiper-slide p-4 h-auto">
+      <div class="bg-white rounded-2xl shadow-md p-6 h-full flex flex-col justify-between">
+
+        <p class="text-gray-700 mb-6">
+          "${r.text}"
+        </p>
+
+        <div class="mt-auto">
+          <p class="font-semibold text-gray-900">${r.name}</p>
+          <p class="text-yellow-500">★★★★★</p>
+        </div>
+
+      </div>
+    </div>
+  `;
+});
+
+new Swiper('.swiper', {
+  loop: true,
+  spaceBetween: 20,
+  autoplay: {
+    delay: 4000,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    640: { slidesPerView: 1 },
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 }
+  }
+});
+</script>
+
+</body>
+</html>
